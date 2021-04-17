@@ -1,0 +1,16 @@
+<h1>Stupid Coaching</h1>
+<br>
+<hr>
+
+<div style="background: lightGrey ; padding: 16px">
+<p><strong><%= @ask %></strong></p>
+<p><i> -You</i></p>
+</div>
+
+<div style="background: lightyellow; padding: 16px">
+<p><strong><%= @answer %></strong></p>
+<p><i> -Coach</i></p>
+</div>
+<br>
+
+<button type="button"><%= link_to "Click to ask again", ask_path %></button>
